@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusFlow - The Future of Team Collaboration</title>
+    <link href="templatemo-nexus-style.css" rel="stylesheet">
+    <!--
+
+TemplateMo 594 nexus flow
+
+https://templatemo.com/tm-594-nexus-flow
+
+-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <style>
+        #projectworks {
+            width: 100%;
+            row-gap: 50px;
+            justify-content: space-around;
+            display: grid;
+            grid-template-columns: auto auto;            
+            grid-template-rows: auto auto;
+        }
+    </style>
+</head>
+
+<body id="top">
+    <!-- Enhanced Background Elements -->
+    <div class="cyber-bg">
+        <div class="cyber-gradient"></div>
+        <div class="matrix-rain" id="matrixRain"></div>
+    </div>
+
+    <div class="particles" id="particlesContainer"></div>
+
+    <div class="data-streams" id="dataStreams"></div>
+
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+
+    <div class="grid-overlay">
+        <div class="grid-lines"></div>
+        <div class="grid-glow"></div>
+    </div>
+
+    <div class="scanlines"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#top" class="logo">Coding Classes Since 1999</a>
+            <ul class="nav-links">
+                <li><a href="#features">Courses</a></li>
+                <li><a href="#pricing">STUDENTS FEEDBACK</a></li>
+                <li><a href="#project">STUDENT PROJECT WORKS</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-bottom">
+                <a href="#" class="cyber-button">Login</a>
+            </div>
+            <button class="mobile-menu-button" id="mobileMenuBtn">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <a href="#top" class="mobile-menu-logo">NexusFlow</a>
+            <button class="mobile-menu-close" id="mobileMenuClose">✕</button>
+        </div>
+        <div class="mobile-menu-cta">
+            <a href="#" class="cyber-button">Access Terminal</a>
+        </div>
+        <nav class="mobile-menu-nav">
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="hero-title">
+                <span class="hero-nexus">SUNNY</span><span class="hero-flow">INSTITUTE</span>
+            </h1>
+            <p class="hero-subtitle" style="color:yellow">Intensity. Integrity. Intelligence.</p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn-primary">Courses</a>
+                <a href="#project" class="btn-secondary">Student Works</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats fade-up" id="stats">
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">6K+</span>
+                    <span class="stat-label" style="color:yellow">Students Trained</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">44K+</span>
+                    <span class="stat-label" style="color:yellow">TEACHING HOURS EXPERIENCE</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label" style="color:yellow">Major Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label" style="color:yellow">Courses</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features fade-up" id="features">
+        <div class="features-container">
+            <div class="section-header">
+                <h2 class="section-title">COURSES</h2>
+                <p class="section-subtitle">Industry Level, Placement Oriented Courses <br><span
+                        style="color:yellow">Very Rich Syllabus</span></p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="images/java.png" width="100" height="100"></div>
+                    <h3 style="text-transform: none;">Java Full Stack Web Development</h3>
+                    <p>Java Spring Boot simplifies backend development, while Hibernate streamlines database
+                        interactions through efficient ORM.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="images/python.png" width="100" height="100"></div>
+                    <h3 style="text-transform: none;">Python Full Stack Web Development</h3>
+                    <p>Python Django empowers rapid, secure, and scalable web development with a clean, pragmatic design
+                        and powerful built-in tools.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/mern.png" width="100" height="100">
+                    </div>
+                    <h3 style="text-transform: none;">MERN Stack</h3>
+                    <p>The MERN stack combines MongoDB, Express.js, React, and Node.js to build dynamic, full-stack web
+                        applications with a seamless JavaScript workflow from front-end to back-end.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/ml.jpg" width="100" height="100">
+                    </div>
+                    <h3 style="text-transform: none;">Machine Learning</h3>
+                    <p>Machine learning is transforming the future by enabling machines to learn, adapt, and make
+                        intelligent decisions—driving groundbreaking innovation and redefining what’s possible across
+                        every industry.
+
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/dataanalysis.png" width="100" height="100">
+                    </div>
+                    <h3 style="text-transform: none;">Data Analysis</h3>
+                    <p>Data analysis unlocks the hidden potential of raw information, turning complex datasets into
+                        powerful insights that drive innovation, strategy, and intelligent decision-making.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/ai.png" width="100" height="100">
+                    </div>
+                    <h3 style="text-transform: none;">Artificial Intelligence</h3>
+                    <p>Artificial Intelligence is reshaping humanity’s future by empowering machines to think, learn,
+                        and innovate autonomously—transforming industries, solving humanity’s greatest challenges, and
+                        unlocking limitless possibilities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/js.png" width="100" height="100">
+                    </div>
+                    <h3 style="text-transform: none;">Javascript</h3>
+                    <p>JavaScript is the dynamic backbone of modern web development, enabling interactive, responsive,
+                        and feature-rich experiences across browsers and platforms worldwide.
+                    </p>
+                </div>
+
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/react.png" width="100" height="100">
+                    </div>
+                    <h3 style="text-transform: none;">React JS</h3>
+                    <p>React.js revolutionizes web development with its powerful component-based architecture, enabling
+                        fast, scalable, and seamless user interfaces that enhance dynamic web experiences.
+                    </p>
+                </div>
+
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/express.png" width="100" height="100">
+                    </div>
+                    <h3 style="text-transform: none;">Express JS</h3>
+                    <p>Express.js is a fast, minimalist web framework for Node.js that simplifies building robust APIs
+                        and server-side applications with flexibility and efficiency.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/powerbi.png" width="100" height="100">
+                    </div>
+                    <h3 style="text-transform: none;">Power BI</h3>
+                    <p>Power BI transforms raw data into stunning, interactive visual stories, empowering smarter
+                        decisions at the speed of thought.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/mysql.png" width="100" height="100">
+                    </div>
+                    <h3 style="text-transform: none;">MySQL</h3>
+                    <p>MySQL is the powerhouse behind the world's most demanding applications—delivering lightning-fast,
+                        reliable, and scalable data management with unmatched efficiency.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/php.png" width="100" height="100">
+                    </div>
+                    <h3 style="text-transform: none;">PHP</h3>
+                    <p>PHP is the dynamic engine driving millions of web applications, seamlessly blending flexibility,
+                        speed, and server-side power to bring interactive digital experiences to life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Project Section -->
+    <section class="pricing fade-up" id="project">
+        <div class="section-header">
+            <h2 class="section-title">STUDENT PROJECT WORKS</h2>
+            <p class="section-subtitle">A series of showstoppers</p>
+        </div>
+        <div id="projectworks">
+            
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LXLkPd7vEts?si=K_GCaEWe4I24dRyh"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cMoOqGvIe4U?si=j2NGrtfj5WuIUfQ4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/itPo5JvlB-0?si=msv_Igqui1dBR1N1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-ZUTEqqNg-g?si=RuGdmFOpeCJU1uLv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4J13onAWLT0?si=VuKpSqBj2k9w0BhJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/McQ1JbGyy24?si=FX0p9oQcCITY6Oa2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </div>
+    </section>
+    <!-- Pricing Section -->
+    <section class="pricing fade-up" id="pricing">
+        <div class="pricing-container">
+            <div class="section-header">
+                <h2 class="section-title">STUDENTS FEEDBACK</h2>
+                <p class="section-subtitle">Real Student Experiences</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="plan-name">Placed At</div>
+                    <div class="plan-price">Infosys</div>
+                    <center>
+                        <img src="images/NIDA TESTIMONIAL.jpg" width="450" height="400">
+                    </center>
+                </div>
+                <div class="pricing-card">
+                    <div class="plan-name">Placed At</div>
+                    <div class="plan-price">Netlink</div>
+                    <center>
+                        <img src="images/PRABHAT-TESTIMONIAL.jpg" width="450" height="450">
+                    </center>
+                </div>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="plan-name">Placed At</div>
+                    <div class="plan-price">Accenture</div>
+                    <center>
+                        <img src="images/YASH-TESTIMONIAL.jpg" width="550" height="450">
+                    </center>
+                </div>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="plan-name">Placed At</div>
+                    <div class="plan-price">TCS</div>
+                    <center>
+                        <img src="images/anjali-TESTIMONIAL.jpg" width="550" height="450">
+                    </center>
+                </div>
+                <div class="pricing-card">
+                    <div class="plan-name">Placed At</div>
+                    <div class="plan-price">Hidden Brains</div>
+                    <center>
+                        <img src="images/VAISHNAVI-TESTIMONIAL.jpg" width="550" height="450">
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact fade-up" id="contact">
+        <div class="contact-container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <span class="section-subtitle">DIG BUNGLOW</span>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <span class="section-subtitle">LALGHATI</span>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <div class="contact-form">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.017442809458!2d77.40281259999999!3d23.278815899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c68404b88166f%3A0xb685ca42aeccaf03!2sSunny%20Institute-Tally-C-C%2B%2B-Java-Spring-Python-Django-PHP-coding-PGDCA-DCA-CPCT-Computer-classes-React-Flutter-JavaScript!5e0!3m2!1sen!2sin!4v1753800822257!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-form">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.938683261517!2d77.3751477!3d23.2816776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c67c7e0c689e3%3A0x5068d6cbd57cc831!2sSunny%20Institute%20Of%20Computer%20Classes%20-%20PGDCA%20-%20DCA%20-%20C%20-%20C%2B%2B%20-%20Coding%20Classes%20for%20-%20Java%20-%20Python%20-%20PHP%20-%20Tally%20-%20MS-Office!5e0!3m2!1sen!2sin!4v1753801425250!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <span class="footer-separator">•</span>
+                <a href="#">Terms of Service</a>
+                <span class="footer-separator">•</span>
+                <a href="#">Documentation</a>
+                <span class="footer-separator">•</span>
+                <a href="#">Contact Support</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sunny Institute</p>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="templatemo-nexus-scripts.js"></script>
+</body>
+
+</html>
